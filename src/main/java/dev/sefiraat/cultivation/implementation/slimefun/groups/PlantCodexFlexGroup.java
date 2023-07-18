@@ -104,7 +104,7 @@ public class PlantCodexFlexGroup extends FlexItemGroup {
     @Override
     @ParametersAreNonnullByDefault
     public void open(Player p, PlayerProfile profile, SlimefunGuideMode mode) {
-        ChestMenu chestMenu = new ChestMenu(CultivationThemes.MAIN.getColor() + "杂交宝典");
+        ChestMenu chestMenu = new ChestMenu(CultivationThemes.MAIN.getColor() + "培育宝典");
 
         for (int slot : HEADER) {
             chestMenu.addItem(slot, ChestMenuUtils.getBackground(), (player1, i1, itemStack, clickAction) -> false);
@@ -290,7 +290,7 @@ public class PlantCodexFlexGroup extends FlexItemGroup {
             List.of(
                 Theme.ERROR + "未发现",
                 "你还不清楚如何",
-                "杂交这个植物!"
+                "培育这个植物!"
             )
         );
     }

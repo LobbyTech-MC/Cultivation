@@ -23,7 +23,7 @@ public class CultivationLeaves extends SlimefunItem {
             CultivationGroups.HIDDEN_CONTENT,
             new SlimefunItemStack("CLT_LEAVES_" + tree.getId().substring(4),
                                   Material.ACACIA_LEAVES,
-                                  "杂交工艺 - 树叶"
+                                  "农耕工艺 - 树叶"
             ),
             RecipeType.NULL,
             new ItemStack[0]

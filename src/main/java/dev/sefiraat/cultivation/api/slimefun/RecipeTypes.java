@@ -37,7 +37,7 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "从灌木丛收获",
             List.of(
-                "该物品可从杂交工艺的",
+                "该物品可从农耕工艺的",
                 "灌木收获"
             )
         )
@@ -51,7 +51,7 @@ public final class RecipeTypes {
             CultivationThemes.RECIPE_TYPE,
             "从树木收获",
             List.of(
-                "该物品可从杂交工艺的",
+                "该物品可从农耕工艺的",
                 "树木收获"
             )
         )
@@ -105,18 +105,20 @@ public final class RecipeTypes {
         Theme.themedItemStack(
             Material.FLOWER_POT,
             CultivationThemes.RECIPE_TYPE,
-            "杂交作物",
+            "植物培育",
             List.of(
-                "杂交有可能生成全新的杂交作物种子,",
-                "或者当前杂交作物的升级版本作物种子。",
-                "在两个作物架上种两个杂交作物种子并在",
-                "中间留一个空气方块来进行杂交培育。",
-                "",
-                "杂交宝典可用来记录",
-                "你目前的杂交培育发现",
-                "",
-                "提示：黑色粒子表示",
-                "两杂交作物无法进行杂交"
+            		"该种子通过培育获得。",
+                    "",
+                    "在两个种子中间",
+                    "留一个空气方块",
+                    "来进行培育。",
+                    "",
+                    "植物宝典可用来记录",
+                    "你目前的发现。",
+                    "",
+                    "提示：黑色粒子表示",
+                    "两株植物无法培育。",
+                    ""
             )
         )
     );

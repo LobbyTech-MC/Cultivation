@@ -21,11 +21,11 @@ public final class CultivationGroups {
 
     public static final SimpleFlexGroup MAIN = new SimpleFlexGroup(
         Cultivation.getInstance(),
-        "杂交工艺",
+        "农耕工艺",
         Keys.newKey("main"),
         new CustomItemStack(
             new ItemStack(Material.AZURE_BLUET),
-            CultivationThemes.MAIN.color("杂交工艺")
+            CultivationThemes.MAIN.color("农耕工艺")
         )
     );
 
@@ -114,7 +114,7 @@ public final class CultivationGroups {
         Keys.newKey("plant_codex"),
         new CustomItemStack(
             new ItemStack(Material.BEETROOT_SEEDS),
-            CultivationThemes.MAIN.color("杂交宝典")
+            CultivationThemes.MAIN.color("培育宝典")
         )
     );
 

@@ -9,7 +9,7 @@ public final class CultivationThemes {
         throw new IllegalStateException("Utility class");
     }
 
-    public static final Theme MAIN = new Theme(ChatColor.of("#8a0e0e"), "杂交工艺");
+    public static final Theme MAIN = new Theme(ChatColor.of("#8a0e0e"), "农耕工艺");
     public static final Theme DISCOVEREY = new Theme(ChatColor.of("#a60e03"), "探索");
     public static final Theme CRAFTING = new Theme(ChatColor.of("#dbcea9"), "合成材料");
     public static final Theme RECIPE_TYPE = new Theme(ChatColor.of("#ffe89c"), "合成配方");

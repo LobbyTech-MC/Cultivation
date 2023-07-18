@@ -316,7 +316,7 @@ public abstract class CultivationPlant extends CultivationFloraItem<CultivationP
             List<String> lore = itemMeta.getLore();
             lore.add("");
             lore.add(Theme.CLICK_INFO.asTitle("等级", profile.getLevel()));
-            lore.add(Theme.CLICK_INFO.asTitle("速率", profile.getSpeed()));
+            lore.add(Theme.CLICK_INFO.asTitle("速度", profile.getSpeed()));
             lore.add(Theme.CLICK_INFO.asTitle("强度", profile.getStrength()));
             itemMeta.setLore(lore);
         }

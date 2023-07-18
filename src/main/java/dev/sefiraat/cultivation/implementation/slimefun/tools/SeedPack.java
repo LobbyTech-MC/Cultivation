@@ -180,7 +180,7 @@ public class SeedPack extends SlimefunItem {
 
             SlimefunItem slimefunItem = SlimefunItem.getByItem(itemStack);
             if (!(slimefunItem instanceof CultivationPlant plant)) {
-                player.sendMessage(Theme.WARNING.apply("物品必须为杂交工艺的植物种子。"));
+                player.sendMessage(Theme.WARNING.apply("物品必须为农耕工艺的植物种子。"));
                 return false;
             }
 

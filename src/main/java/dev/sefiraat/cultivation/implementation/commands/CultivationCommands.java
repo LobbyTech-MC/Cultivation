@@ -270,7 +270,7 @@ public class CultivationCommands extends BaseCommand {
                 FloraLevelProfile profile = entry.getKey();
                 String neatKey =
                     " 等级：" + profile.getLevel() +
-                    " 速率：" + profile.getSpeed() +
+                    " 速度：" + profile.getSpeed() +
                     " 强度：" + profile.getStrength();
                 player.sendMessage(Theme.CLICK_INFO.asTitle(neatKey, entry.getValue()));
             }
