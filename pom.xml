@@ -45,7 +45,7 @@
     </scm>
 
     <build>
-        <finalName>${project.name} v${project.version}</finalName>
+        <finalName>[粘液科技]${project.name}科技时代汉化版${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
